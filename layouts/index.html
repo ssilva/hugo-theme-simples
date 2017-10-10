@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+    <header><h1>{{ .Site.Title }}</h1></header>
+    <hr>
+    {{ .Content }}
+
+    <h4>{{ .Site.Params.Simples.PostsSectionHeader }}</h4>
+    {{ if .Site.Params.Simples.PostsSectionBlurb }}
+    <p class="text-muted">{{ .Site.Params.Simples.PostsSectionBlurb }}</p>
+    {{ end }}
+    {{ range .Data.Pages }}
+        <h6>
+            <small class="text-muted">{{ .Date.Format "Jan 2, 2006" }}</small>
+            <a href="{{.RelPermalink}}">{{ .Title }}</a>
+        </h6>
+    {{ end }}
+{{ partial "footer.html" . }}

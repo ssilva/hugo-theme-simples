@@ -1,0 +1,25 @@
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h4 {
+  margin-top: 2rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+pre {
+  background-color: #f7f7f9;
+  padding: 1rem;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}

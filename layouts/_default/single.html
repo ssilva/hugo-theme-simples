@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+        <p class="text-muted"><a href="/" class="text-muted">{{ .Site.Title }}</a></p>
+        <article>
+            <header><h1>{{ .Title }}</h1></header>
+            <small class="text-muted">
+                <time datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            </small>
+            <hr>
+            {{ .Content }}
+        </article>
+        <hr>
+        {{ template "_internal/disqus.html" . }}
+{{ partial "footer.html" . }}
