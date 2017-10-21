@@ -3,14 +3,13 @@
     <hr>
     {{ .Content }}
 
-    <h4>{{ .Site.Params.Simples.PostsSectionHeader }}</h4>
-    {{ if .Site.Params.Simples.PostsSectionBlurb }}
-    <p class="text-muted">{{ .Site.Params.Simples.PostsSectionBlurb }}</p>
-    {{ end }}
+    <h3>{{ .Site.Params.Simples.PostsSectionHeader }}</h3>
+    <ul class="list-unstyled">
     {{ range .Data.Pages }}
-        <h6>
-            <small class="text-muted">{{ .Date.Format "Jan 2, 2006" }}</small>
+        <li>
+            <small class="text-muted">{{ .Date.Format "2006-01-01" }}</small>
             <a href="{{.RelPermalink}}">{{ .Title }}</a>
-        </h6>
+        </li>
     {{ end }}
+    </ul>
 {{ partial "footer.html" . }}
