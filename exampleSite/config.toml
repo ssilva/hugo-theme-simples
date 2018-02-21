@@ -8,6 +8,4 @@ pygmentsCodeFences = true
 
 [params.simples]
     author = "John Smith" # Currently only used in <meta name="author">
-    description = "Software Engineer" # Currently only used in <meta name="description">
     postsSectionHeader = "Articles"
-    postsSectionBlurb = "My rumblings about technology"
