@@ -3,7 +3,7 @@ languageCode = "en"
 title = "My Blog"
 theme = "hugo-theme-simples"
 pygmentsCodeFences = true
-pygmentsStyle = "pastie"
+pygmentsStyle = "monokailight"
 #disqusShortname = "XXXXXXXS"
 #googleAnalytics = "UA-XXXXXX-X"
 
