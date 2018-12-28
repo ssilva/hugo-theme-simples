@@ -7,7 +7,7 @@
     <ul class="list-unstyled">
     {{ range .Data.Pages }}
         <li>
-            <small class="text-muted">{{ .Date.Format "2006-01-01" }}</small>
+            <small class="text-muted text-mono"><time>{{ .Date.Format "2006-01-01" }}</time></small>
             <a href="{{.RelPermalink}}">{{ .Title }}</a>
         </li>
     {{ end }}
