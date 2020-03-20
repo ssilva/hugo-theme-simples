@@ -10,3 +10,4 @@ pygmentsStyle = "monokailight"
 [params.simples]
     author = "John Smith" # Currently only used in <meta name="author">
     postsSectionHeader = "Articles"
+    #clickyId = "1234567"

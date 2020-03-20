@@ -3,7 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/ssilva/hugo-theme-simples/blob/master/LICENSE.md"
 description = "Lean and clean Hugo theme for small blogs"
 homepage = "https://github.com/ssilva/hugo-theme-simples/"
-tags = ["Simple", "Clean", "Minimal", "Minimalist", "White", "Responsive", "Blog", "Google analytics", "Disqus"]
+tags = ["Simple", "Clean", "Minimal", "Minimalist", "White", "Responsive", "Blog", "Google analytics", "Disqus", "Clicky"]
 features = ["blog"]
 min_version = "0.26"
 
