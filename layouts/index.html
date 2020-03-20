@@ -5,7 +5,7 @@
 
     <h3>{{ .Site.Params.Simples.PostsSectionHeader }}</h3>
     <ul class="list-unstyled">
-    {{ range .Data.Pages }}
+    {{ range .Site.RegularPages }}
         <li>
             <small class="text-muted text-mono"><time>{{ .Date.Format "2006-01-01" }}</time></small>
             <a href="{{.RelPermalink}}">{{ .Title }}</a>
